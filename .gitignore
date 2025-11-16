@@ -1,0 +1,51 @@
+# Aurora Hunter - Git Ignore
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Dependencies
+/backend/vendor/
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+/backend/logs/
+/var/log/
+
+# Cache
+/backend/cache/
+*.cache
+
+# Composer
+composer.lock
+
+# Backup files
+*.backup
+*.bak
+*.sql
+
+# Extension build
+*.zip
+*.crx
+*.xpi
+
+# Test files
+/tests/coverage/
+phpunit.xml
+
+# Temporary files
+tmp/
+temp/
